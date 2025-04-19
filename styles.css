@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .navbar, .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    font-weight: bold;
+  }
+  
+  .section h1 {
+    margin: 40px 0 20px;
+    font-size: 2rem;
+  }
+  
+  .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+  }
+  .box {
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 60px;
+  }
